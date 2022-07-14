@@ -22,6 +22,12 @@ ion-icon:hover {
     opacity: 60%;
 }
 
+h3 {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+
 .story-img img,
 .post-top img,
 .profile img,
@@ -29,6 +35,7 @@ ion-icon:hover {
 .liked-by img,
 .story-circle img {
     clip-path: circle();
+    cursor: pointer;
 }
 
 .footer {

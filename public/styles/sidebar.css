@@ -74,8 +74,6 @@
 }
 
 .sugestion-name h3 {
-    font-size: 14px;
-    font-weight: 500;
     margin-bottom: 6px;
     color: #262626;
 }
@@ -88,8 +86,8 @@
 
 .sugestion>p {
     font-size: 12px;
-    font-weight: 500;
     color: #139EF2;
+    cursor: pointer;
 }
 
 .about-links {
