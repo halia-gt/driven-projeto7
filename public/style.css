@@ -240,7 +240,7 @@ ion-icon {
     font-weight: 300;
 }
 
-.liked-by p spam {
+.liked-by p span {
     font-weight: 500;
 }
 
@@ -257,7 +257,7 @@ ion-icon {
     margin: 0 17px 14px 17px;
 }
 
-.comments p a {
+.comments p span {
     font-weight: 500;
 }
 
