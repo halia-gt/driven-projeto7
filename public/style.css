@@ -436,15 +436,16 @@ button {
     flex-wrap: wrap;
 }
 
-.about-links a, .about-links p {
+.about-links li {
     color: #C7C7C7;
     font-size: 11px;
-    line-height: 13px;
     margin-left: 5px;
 }
 
-#copyright {
+.copyright {
     margin-top: 20px;
+    color: #C7C7C7;
+    font-size: 11px;
 }
 
 .footer {
