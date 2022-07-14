@@ -9,6 +9,10 @@ body {
     box-sizing: border-box;
 }
 
+span {
+    cursor: pointer;
+}
+
 /* Cabeçalho */
 
 .header {
@@ -37,6 +41,10 @@ body {
 ion-icon {
     font-size: 22px;
     cursor: pointer;
+}
+
+.header ion-icon:hover {
+    opacity: 60%;
 }
 
 .icon-logo {
@@ -113,6 +121,7 @@ ion-icon {
     position: absolute;
     top: 5px;
     left: 5px;
+    cursor: pointer;
 }
 
 .story-img img, .post-top img, .profile img, .sugestion img, .liked-by img, .story-circle img {
@@ -133,6 +142,7 @@ ion-icon {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    cursor: pointer;
 }
 
 .arrow {
@@ -175,6 +185,7 @@ ion-icon {
 
 .post-top img {
     width: 32px;
+    cursor: pointer;
 }
 
 .post-top h3 {
@@ -183,6 +194,7 @@ ion-icon {
     width: 110px;
     margin-left: 15px;
     color: #262626;
+    cursor: pointer;
 }
 
 .post-top ion-icon {
