@@ -19,15 +19,15 @@ export default function Posts() {
             profile: 'images/barked-logo.jpg',
             name: 'barked',
             img: 'images/dog-wallpaper.jpg',
-            likedby: 'melonshop',
-            likedimg: 'images/melonshop-logo.jpg',
+            likedby: 'berryshop',
+            likedimg: 'images/strawberry.jpg',
             likes: '99.504',
             text: 'My dog is more photogenic than me...',
             comments: [{
                 by: 'cute_animals',
                 text: 'I want to hug him so much'
             }, {
-                by: 'melonshop',
+                by: 'berryshop',
                 text: 'So cute!'
             }
             ]
