@@ -1,0 +1,95 @@
+.posts-column {
+    width: 614px;
+}
+
+.post {
+    margin-bottom: 60px;
+    border: 1px solid #DBDBDB;
+    background-color: white;
+}
+
+.post-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 17px;
+}
+
+.post-profile {
+    display: flex;
+    align-items: center;
+}
+
+.post-top img {
+    width: 32px;
+    cursor: pointer;
+}
+
+.post-top h3 {
+    font-size: 14px;
+    font-weight: 500;
+    width: 110px;
+    margin-left: 15px;
+    color: #262626;
+    cursor: pointer;
+}
+
+.post-top ion-icon {
+    font-size: 16px;
+}
+
+.post-img {
+    width: 612px;
+    height: 612px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.post-img img {
+    width: 612px;
+}
+
+.post-img video {
+    width: 612px;
+}
+
+.post-bottom {
+    padding: 14px 17px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.icons-left {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.icons ion-icon:hover {
+    opacity: 60%;
+}
+
+.liked-by {
+    display: flex;
+    align-items: center;
+}
+
+.liked-by img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.liked-by p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.liked-by p span {
+    font-weight: 500;
+}

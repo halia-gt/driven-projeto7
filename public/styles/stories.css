@@ -1,0 +1,65 @@
+.stories-container {
+    width: 614px;
+    background-color: white;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    overflow: hidden;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    position: relative;
+}
+
+.story {
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.story-circle {
+    position: relative;
+}
+
+.story-circle img {
+    width: 66px;
+}
+
+.story-img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.story-img img {
+    width: 56px;
+}
+
+.story p {
+    width: 66px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6px;
+    color: #262626;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.arrow {
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    right: 5px;
+    top: 43px;
+    z-index: 1;
+}
+
+.stories-container ion-icon {
+    font-size: 32px;
+    color: white;
+}
