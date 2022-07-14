@@ -5,7 +5,7 @@ import Sugestions from "./Sugestions";
 export default function Sidebar() {
     return (
         <aside className="sidebar">
-            <Profile username="catanacomics" name="Catana" img="images/catanacomics-logo.jpg" />
+            <Profile username="reader" name="I love read" img="images/me.jpg" />
             <Sugestions />
             <Links />
         </aside>

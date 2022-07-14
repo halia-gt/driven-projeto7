@@ -3,24 +3,24 @@ import Post from "./Post";
 export default function Posts() {
     const postArray = [
         {
-            profile: 'images/meowed-logo.png',
-            name: 'meowed',
-            img: 'images/cat-glasses.jpg',
-            likedby: 'respondeai',
-            likedimg: 'images/respodeai-logo.png',
+            profile: 'images/book-logo.jpg',
+            name: 'booksh',
+            img: 'images/books.jpg',
+            likedby: 'coffee.vibes',
+            likedimg: 'images/coffee-lover-logo.jpg',
             likes: '101.523',
-            text: 'A galaxy cat!',
+            text: 'Book vortex',
             comments: [{
-                by: 'cat.vibes',
-                text: 'Loved the glasses, I want one too'
+                by: 'coffee.vibes',
+                text: 'I love books with coffee'
             }
             ]
         }, {
-            profile: 'images/barked-logo.jpg',
-            name: 'barked',
-            img: 'images/dog-wallpaper.jpg',
+            profile: 'images/dog-logo.jpg',
+            name: 'barking',
+            img: 'images/dog.jpg',
             likedby: 'berryshop',
-            likedimg: 'images/strawberry.jpg',
+            likedimg: 'images/strawberry-logo.jpg',
             likes: '99.504',
             text: 'My dog is more photogenic than me...',
             comments: [{
@@ -32,15 +32,15 @@ export default function Posts() {
             }
             ]
         }, {
-            profile: 'images/meowed-logo.png',
-            name: 'meowed',
+            profile: 'images/cat-logo.jpg',
+            name: 'meowing',
             img: 'images/cat-space.jpg',
-            likedby: '9gag',
-            likedimg: 'images/9gag_logo.svg.png',
+            likedby: 'funny',
+            likedimg: 'images/funny-logo.jpg',
             likes: '58.388',
             text: 'This cat is a disney princess',
             comments: [{
-                by: 'barked',
+                by: 'barking',
                 text: 'I want to be a disney princess too'
             }
             ]

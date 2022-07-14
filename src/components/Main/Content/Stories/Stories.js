@@ -3,29 +3,29 @@ import Story from "./Story"
 export default function Stories() {
     const storiesArray = [
         {
-            img: 'images/9gag_logo.svg.png',
-            title: '9gag'
+            img: 'images/cat-logo.jpg',
+            title: 'meowing'
         }, {
-            img: 'images/meowed-logo.png',
-            title: 'meowed'
+            img: 'images/dog-logo.jpg',
+            title: 'barking'
         }, {
-            img: 'images/barked-logo.jpg',
-            title: 'barked'
+            img: 'images/book-logo.jpg',
+            title: 'booksh'
         }, {
-            img: 'images/nathanpyle-logo.jpg',
-            title: 'nathanwpyle'
+            img: 'images/journal-logo.jpg',
+            title: 'journaling'
         }, {
-            img: 'images/wawawiwacomics-logo.png',
-            title: 'wawawiwacomics'
+            img: 'images/travel-logo.jpg',
+            title: 'nice-travelling'
         }, {
-            img: 'images/respodeai-logo.png',
-            title: 'respondeai'
+            img: 'images/coffee-lover-logo.jpg',
+            title: 'coffee.lover'
         }, {
-            img: 'images/filomoderna-logo.jpg',
-            title: 'filomoderna'
+            img: 'images/dessert-logo.jpg',
+            title: 'dessert'
         }, {
-            img: 'images/memeriago-logo.jpg',
-            title: 'memeriago'
+            img: 'images/funny-logo.jpg',
+            title: 'funny'
         }
     ]
     

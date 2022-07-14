@@ -3,20 +3,20 @@ import Sugestion from "./Sugestion"
 export default function Sugestions() {
     const sugestionsArray = [
         {
-            img: 'images/owl-logo.png',
+            img: 'images/owl-logo.jpg',
             name: 'owlreaders'
         }, {
-            img: 'images/cutepanda-logo.jpg',
+            img: 'images/squirrel-logo.jpg',
             name: 'cute_animals'
         }, {
             img: 'images/sweetbakery-logo.jpg',
             name: 'sweet-bakery'
         }, {
-            img: 'images/grapes-logo.jpg',
+            img: 'images/winecellar-logo.jpg',
             name: 'winecellar'
         }, {
-            img: 'images/catcoffe-logo.png',
-            name: 'cat.vibes'
+            img: 'images/coffee-logo.jpg',
+            name: 'coffee.vibes'
         }
     ]
     return (
