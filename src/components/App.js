@@ -1,15 +1,10 @@
-function App() {
+import Header from "./Header";
+
+
+export default function App() {
     return (
-        <div>
-            {/* <Header />
-            <PageContent />
-            <Footer /> */}
-        </div>
+        <>
+            <Header />
+        </>
     );
 }
-
-// function Header() {}
-
-// function PageContent() {}
-
-// function Footer() {}
