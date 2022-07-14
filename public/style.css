@@ -386,11 +386,11 @@ button {
     margin-bottom: 17px;
 }
 
-.sugestion-title:first-child {
+.sugestion-title p:first-child {
     color: #8E8E8E;
 }
 
-.sugestion-title a {
+.sugestion-title p {
     color: #262626;
 }
 
@@ -425,7 +425,7 @@ button {
     color: #8E8E8E;
 }
 
-.sugestion>a {
+.sugestion>p {
     font-size: 12px;
     font-weight: 500;
     color: #139EF2;
