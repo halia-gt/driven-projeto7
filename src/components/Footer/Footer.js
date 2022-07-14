@@ -1,11 +1,24 @@
+import Icon from "./Icon"
+
 export default function Footer() {
+    const ionIcons = [
+        {
+            name: 'home'
+        }, {
+            name: 'search-outline'
+        }, {
+            name: 'add-circle-outline'
+        }, {
+            name: 'heart-outline'
+        }, {
+            name: 'person-outline'
+        }
+    ]
     return (
         <footer className="footer">
-            <ion-icon name="home"></ion-icon>
-            <ion-icon name="search-outline"></ion-icon>
-            <ion-icon name="add-circle-outline"></ion-icon>
-            <ion-icon name="heart-outline"></ion-icon>
-            <ion-icon name="person-outline"></ion-icon>
+            {ionIcons.map( (icon, index) => (
+                <Icon key={index} {...icon} />
+            ))}
         </footer>
     )
 }
