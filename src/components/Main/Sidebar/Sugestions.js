@@ -19,6 +19,7 @@ export default function Sugestions() {
             name: 'coffee.vibes'
         }
     ]
+    
     return (
         <ul className="sugestion-box">
             <li className="sugestion-title">

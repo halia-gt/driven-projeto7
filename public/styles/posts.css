@@ -68,10 +68,6 @@
     width: 100px;
 }
 
-.icons ion-icon:hover {
-    opacity: 60%;
-}
-
 .liked-by {
     display: flex;
     align-items: center;
@@ -89,4 +85,25 @@
 
 .liked-by p span {
     font-weight: 500;
+}
+
+.heart-icon {
+    transition: color .4s linear;
+}
+
+.heart-icon.liked {
+    color: #FA383E;
+    animation: liked .4s ease;
+}
+
+@keyframes liked {
+    0% {
+        transform: scale(.8);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
