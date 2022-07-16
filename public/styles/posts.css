@@ -89,11 +89,13 @@
 
 .heart-icon {
     transition: color .4s linear;
+    visibility: visible;
 }
 
 .heart-icon.liked {
     color: #FA383E;
     animation: liked .4s ease;
+    visibility: visible;
 }
 
 @keyframes liked {
