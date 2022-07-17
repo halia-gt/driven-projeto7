@@ -5,7 +5,7 @@ export default function Sugestion(props) {
                 <img src={props.img} alt="" />
                 <div className="sugestion-name">
                     <h3>{props.name}</h3>
-                    <p>Segue você</p>
+                    <p>{props.reason}</p>
                 </div>
             </div>
             <p>Seguir</p>

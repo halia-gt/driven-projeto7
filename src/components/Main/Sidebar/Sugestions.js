@@ -4,19 +4,24 @@ export default function Sugestions() {
     const sugestionsArray = [
         {
             img: 'images/owl-logo.jpg',
-            name: 'owlreaders'
+            name: 'owlreaders',
+            reason: 'Segue você'
         }, {
             img: 'images/squirrel-logo.jpg',
-            name: 'cute_animals'
+            name: 'cute_animals',
+            reason: 'Segue você'
         }, {
             img: 'images/sweetbakery-logo.jpg',
-            name: 'sweet-bakery'
+            name: 'sweet-bakery',
+            reason: 'Segue você'
         }, {
             img: 'images/winecellar-logo.jpg',
-            name: 'winecellar'
+            name: 'winecellar',
+            reason: 'Segue você'
         }, {
             img: 'images/coffee-logo.jpg',
-            name: 'coffee.vibes'
+            name: 'coffee.vibes',
+            reason: 'Novo no Instagram'
         }
     ]
     
