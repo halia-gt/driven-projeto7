@@ -7,6 +7,7 @@ import React, { useState } from "react";
 export default function Post(props) {
     const [iconName, setIconName] = useState('heart-outline');
     const [iconClass, setIconClass] = useState('heart-icon');
+
     return (
         <li className="post">
             <Posttop profile={props.profile} name={props.name} />
